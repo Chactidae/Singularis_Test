@@ -160,7 +160,6 @@ def find_window(screenshot_path, icon_path, thresh):
 
 
 if __name__ == '__main__':
-      # Путь к скриншоту
     icon_path = 'icon_new.png'
     full_screen = str(input("Документ открыт во весь экран? (введите y - если да и n - если в окне)"))
     thresh = 180
